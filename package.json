@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-nrk",
+  "version": "0.0.1",
+  "description": "Shared eslint config for NRK",
+  "main": "base.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrkno/eslint-config-nrk.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "NRK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrkno/eslint-config-nrk/issues"
+  },
+  "homepage": "https://github.com/nrkno/eslint-config-nrk#readme",
+  "dependencies": {
+    "eslint": "^1.5.0"
+  }
+}
