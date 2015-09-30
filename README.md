@@ -10,7 +10,7 @@ Shared eslint config for NRK.
 
 ## .eslintrc
 
-### A vanilla JavaScript project (ES6 / JavaScript 2015)
+### Vanilla JavaScript projects using ES6 / JavaScript 2015
 ```json
 {
   "extends": [
@@ -18,3 +18,9 @@ Shared eslint config for NRK.
   ]
 }
 ```
+
+### React projects using ES6 / JavaScript 2015
+TODO.
+
+### Legacy ES5 projects
+TODO.
