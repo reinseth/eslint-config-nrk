@@ -75,9 +75,7 @@ module.exports = {
       "allowKeywords": true
       }
     ],
-    "dot-location": [                 // http://eslint.org/docs/rules/dot-location
-      2, "object"
-    ],
+    "dot-location": 0,                // http://eslint.org/docs/rules/dot-location
     "eqeqeq": 2,                      // http://eslint.org/docs/rules/eqeqeq
     "guard-for-in": 2,                // http://eslint.org/docs/rules/guard-for-in
     "no-alert": 2,                    // http://eslint.org/docs/rules/no-alert
@@ -137,7 +135,7 @@ module.exports = {
     "no-delete-var": 2,               // http://eslint.org/docs/rules/no-delete-var
     "no-label-var": 2,                // http://eslint.org/docs/rules/no-label-var
     "no-shadow-restricted-names": 2,  // http://eslint.org/docs/rules/no-shadow-restricted-names
-    "no-shadow": 2,                   // http://eslint.org/docs/rules/no-shadow
+    "no-shadow": 0,                   // http://eslint.org/docs/rules/no-shadow TODO
     "no-undef-init": 2,               // http://eslint.org/docs/rules/no-undef-init
     "no-undef": 2,                    // http://eslint.org/docs/rules/no-undef
     "no-undefined": 2,                // http://eslint.org/docs/rules/no-undefined
