@@ -45,13 +45,20 @@ module.exports = {
     "key-spacing": [2, {"beforeColon": false, "afterColon": true}], // http://eslint.org/docs/rules/key-spacing
     "linebreak-style": [2, "unix"], // http://eslint.org/docs/rules/linebreak-style
     "max-nested-callbacks": [2, 3], // http://eslint.org/docs/rules/max-nested-callbacks
+    "no-extra-semi": 2, // http://eslint.org/docs/rules/no-extra-semi
     "no-lonely-if": 2, // http://eslint.org/docs/rules/no-lonely-if
     "no-nested-ternary": 2, // http://eslint.org/docs/rules/no-nested-ternary
     "no-unneeded-ternary": 2, // http://eslint.org/docs/rules/no-unneeded-ternary
+    "no-unexpected-multiline": 2, // http://eslint.org/docs/rules/no-unexpected-multiline
     "quote-props": [2, "as-needed"], // http://eslint.org/docs/rules/quote-props
     "quotes": [2, "single"],
     "semi": [2, "never"], // Even in "never" mode, semicolons are still allowed to disambiguate statements beginning
                           // with [, (, /, +, or -: http://eslint.org/docs/rules/semi
+
+    /**
+     * Best practices
+     */
+    "default-case": 2,               // http://eslint.org/docs/rules/default-case
 
     /**
      * ES6
