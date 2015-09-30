@@ -20,7 +20,14 @@ Shared eslint config for NRK.
 ```
 
 ### React projects using ES6 / JavaScript 2015
-TODO.
+```json
+{
+  "extends": [
+    "nrk",
+    "nrk/react"
+  ]
+}
+```
 
 ### Legacy ES5 projects
 TODO.
