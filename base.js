@@ -72,7 +72,7 @@ module.exports = {
     "object-shorthand": 2,            // http://eslint.org/docs/rules/object-shorthand
     "prefer-arrow-callback": 2,       // http://eslint.org/docs/rules/prefer-arrow-callback
     "prefer-const": 2,                // http://eslint.org/docs/rules/prefer-const
-    "prefer-spread": 2,               // http://eslint.org/docs/rules/prefer-spread
+    "prefer-spread": 2,              // http://eslint.org/docs/rules/prefer-spread
 
   },
   "globals": {
