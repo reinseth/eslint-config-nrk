@@ -2,9 +2,16 @@
 Shared eslint config for NRK.
 
 # Usage
-`npm i --save-dev git+ssh://git@github.com:nrkno/eslint-config-nrk.git`
+In your project, type
 
-<b>IMPORTANT</b>: Point your IDE at the project's local eslint package, not your global one:<br>
+`npm install --save-dev eslint`
+`npm install --save-dev git+ssh://git@github.com:nrkno/eslint-config-nrk.git`
+
+If you are going to use React, you need to install eslint-plugin-react within your project as well:
+
+`npm install --save-dev eslint-plugin-react`
+
+**IMPORTANT**: Point your IDE at the project's local eslint package, not your global one:<br>
 
 `<project>/node_modules/eslint`
 
@@ -30,4 +37,4 @@ Shared eslint config for NRK.
 ```
 
 ### Legacy ES5 projects
-TODO.
+TODO
