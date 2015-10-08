@@ -150,7 +150,7 @@ module.exports = {
      */
     "array-bracket-spacing": 0,       // http://eslint.org/docs/rules/array-bracket-spacing
     "block-spacing": [2, "always"],   // http://eslint.org/docs/rules/block-spacing
-    "brace-style": [2, "stroustrup"], // http://eslint.org/docs/rules/brace-style
+    "brace-style": 2,                 // http://eslint.org/docs/rules/brace-style
     "camelcase": [                    // http://eslint.org/docs/rules/camelcase
       2, {
         "properties": "always"
