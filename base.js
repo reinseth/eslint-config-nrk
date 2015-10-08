@@ -205,7 +205,7 @@ module.exports = {
     "no-underscore-dangle": 0,        // http://eslint.org/docs/rules/no-underscore-dangle
     "no-unneeded-ternary": 2,         // http://eslint.org/docs/rules/no-unneeded-ternary
     "object-curly-spacing": 0,        // http://eslint.org/docs/rules/object-curly-spacing
-    "one-var": [2, "never"],          // http://eslint.org/docs/rules/one-var TODO
+    "one-var": 0,                     // http://eslint.org/docs/rules/one-var TODO
     "operator-assignment": 0,         // http://eslint.org/docs/rules/operator-assignment
     "operator-linebreak": [           // http://eslint.org/docs/rules/operator-linebreak TODO
       2,
