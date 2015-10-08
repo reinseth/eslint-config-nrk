@@ -181,16 +181,61 @@ module.exports = {
     "linebreak-style": [2, "unix"],   // http://eslint.org/docs/rules/linebreak-style
     "lines-around-comment": 2,        // http://eslint.org/docs/rules/lines-around-comment
     "max-nested-callbacks": [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
+    "no-array-constructor": 2,        // http://eslint.org/docs/rules/no-array-constructor
+    "no-continue": 2,                 // http://eslint.org/docs/rules/no-continue
+    "no-inline-comments": 0,          // http://eslint.org/docs/rules/no-inline-comments
     "no-lonely-if": 2,                // http://eslint.org/docs/rules/no-lonely-if
+    "no-mixed-spaces-and-tabs": [     // http://eslint.org/docs/rules/no-mixed-spaces-and-tabs
+      2,
+      "smart-tabs"
+    ],
+    "no-multiple-empty-lines": [      // http://eslint.org/docs/rules/no-multiple-empty-lines
+      1,
+      {
+        "max": 3
+      }
+    ],
     "no-nested-ternary": 2,           // http://eslint.org/docs/rules/no-nested-ternary
+    "no-negated-condition": 0,        // http://eslint.org/docs/rules/no-negated-condition
+    "no-new-object": 2,               // http://eslint.org/docs/rules/no-new-object
+    "no-restricted-syntax": 0,        // http://eslint.org/docs/rules/no-restricted-syntax TODO
+    "no-spaced-func": 2,              // http://eslint.org/docs/rules/no-spaced-func
+    "no-ternary": 0,                  // http://eslint.org/docs/rules/no-ternary
+    "no-trailing-spaces": 2,          // http://eslint.org/docs/rules/no-trailing-spaces
+    "no-underscore-dangle": 0,        // http://eslint.org/docs/rules/no-underscore-dangle
     "no-unneeded-ternary": 2,         // http://eslint.org/docs/rules/no-unneeded-ternary
+    "object-curly-spacing": 0,        // http://eslint.org/docs/rules/object-curly-spacing
+    "one-var": [2, "never"],          // http://eslint.org/docs/rules/one-var TODO
+    "operator-assignment": 0,         // http://eslint.org/docs/rules/operator-assignment
+    "operator-linebreak": [           // http://eslint.org/docs/rules/operator-linebreak TODO
+      2,
+      "before",
+      {
+        "overrides":
+        {
+          "?":
+            "after"
+        }
+      }
+    ],
+    "padded-blocks": 0,               // http://eslint.org/docs/rules/padded-blocks
     "quote-props": [2, "as-needed"],  // http://eslint.org/docs/rules/quote-props
-
-    // MAX NESTED CALLBACKS ...
-
-    "quotes": [2, "single"],
+    "quotes": [2, "single"],          // http://eslint.org/docs/rules/quotes
+    "require-jsdoc": 0,               // http://eslint.org/docs/rules/require-jsdoc
+    "semi-spacing": 2,                // http://eslint.org/docs/rules/semi-spacing
     "semi": [2, "never"],             // Even in "never" mode, semicolons are still allowed to disambiguate statements beginning
                                       // with [, (, /, +, or -: http://eslint.org/docs/rules/semi
+    "sort-vars": 0,                   // http://eslint.org/docs/rules/sort-vars
+    "space-after-keywords": 0,        // http://eslint.org/docs/rules/space-after-keywords // TODO
+    "space-before-keywords": 0,       // http://eslint.org/docs/rules/space-before-keywords // TODO
+    "space-before-blocks": 0,         // http://eslint.org/docs/rules/space-before-blocks // TODO
+    "space-before-function-paren": 0, // http://eslint.org/docs/rules/space-before-function-paren // TODO
+    "space-in-parens": 0,             // http://eslint.org/docs/rules/space-in-parens" TODO
+    "space-infix-ops": 0,             // http://eslint.org/docs/rules/space-infix-ops // TODO
+    "space-return-throw-case": 0,     // http://eslint.org/docs/rules/space-return-throw-case // TODO
+    "space-unary-ops": 0,             // http://eslint.org/docs/rules/space-unary-ops // TODO
+    "spaced-comment": [2, "always"],  // http://eslint.org/docs/rules/spaced-comment
+    "wrap-regex": 0,                  // http://eslint.org/docs/rules/wrap-regex
 
 
     /**
@@ -212,8 +257,6 @@ module.exports = {
     "prefer-reflect": 0,              // http://eslint.org/docs/rules/prefer-reflect
     "prefer-template": 2,             // http://eslint.org/docs/rules/prefer-template
     "require-yield": 0,               // http://eslint.org/docs/rules/require-yield TODO
-
-
   },
   "globals": {
     "define": true,
