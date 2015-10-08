@@ -24,7 +24,7 @@ module.exports = {
     "react/jsx-no-duplicate-props": 2,        // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
     "react/jsx-no-literals": 0,               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
     "react/jsx-no-undef": 2,                  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
-    "react/jsx-quotes": [2, "double"],        // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-quotes.md
+    "jsx-quotes": [2, "prefer-double"],       // http://eslint.org/docs/rules/jsx-quotes
     "react/jsx-sort-prop-types": 0,           // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
     "react/jsx-sort-props": 0,                // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
     "react/jsx-uses-react": 2,                // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
