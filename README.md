@@ -9,7 +9,7 @@ In your project, type
 `npm install --save-dev git+ssh://git@github.com:nrkno/eslint-config-nrk.git`
 
 ## With React
-If you are using React, you need to install eslint-plugin-react within your project as well:
+If you are using React, you also need to install eslint-plugin-react within your project:
 
 `npm install --save-dev eslint-plugin-react`
 
@@ -17,7 +17,7 @@ Point your IDE at the project's local eslint package, not your global one:
 
 `<project>/node_modules/eslint`
 
-If you use the ```*.jsx``` extension, tell eslint explicitly to lint jsx files as well:
+If you use the ```*.jsx``` extension, tell eslint explicitly to lint those files as well:
 
 ```eslint . --ext=.js,.jsx``` 
 
