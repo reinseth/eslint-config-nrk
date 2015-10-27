@@ -81,6 +81,8 @@ module.exports = {
     "no-alert": 2,                    // http://eslint.org/docs/rules/no-alert
     "no-caller": 2,                   // http://eslint.org/docs/rules/no-caller
     "no-div-regex": 2,                // http://eslint.org/docs/rules/no-div-regex
+    "no-empty-label": 2,              // http://eslint.org/docs/rules/no-empty-label
+    "no-empty-pattern": 2,            // http://eslint.org/docs/rules/no-empty-pattern
     "no-else-return": 2,              // http://eslint.org/docs/rules/no-else-return
     "no-eq-null": 2,                  // http://eslint.org/docs/rules/no-eq-null
     "no-eval": 2,                     // http://eslint.org/docs/rules/no-eval
@@ -98,6 +100,7 @@ module.exports = {
     "no-implied-eval": 2,             // http://eslint.org/docs/rules/no-implied-eval
     "no-lone-blocks": 2,              // http://eslint.org/docs/rules/no-lone-blocks
     "no-loop-func": 2,                // http://eslint.org/docs/rules/no-loop-func
+    "no-magic-numbers": 2,            // http://eslint.org/docs/rules/no-magic-numbers
     "no-multi-spaces": 2,             // http://eslint.org/docs/rules/no-multi-spaces
     "no-multi-str": 2,                // http://eslint.org/docs/rules/no-multi-str
     "no-native-reassign": 2,          // http://eslint.org/docs/rules/no-native-reassign
