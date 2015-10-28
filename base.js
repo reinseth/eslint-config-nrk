@@ -100,7 +100,7 @@ module.exports = {
     "no-implied-eval": 2,             // http://eslint.org/docs/rules/no-implied-eval
     "no-lone-blocks": 2,              // http://eslint.org/docs/rules/no-lone-blocks
     "no-loop-func": 2,                // http://eslint.org/docs/rules/no-loop-func
-    "no-magic-numbers": 2,            // http://eslint.org/docs/rules/no-magic-numbers
+    "no-magic-numbers": 0,            // http://eslint.org/docs/rules/no-magic-numbers
     "no-multi-spaces": 2,             // http://eslint.org/docs/rules/no-multi-spaces
     "no-multi-str": 2,                // http://eslint.org/docs/rules/no-multi-str
     "no-native-reassign": 2,          // http://eslint.org/docs/rules/no-native-reassign
