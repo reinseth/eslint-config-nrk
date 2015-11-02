@@ -244,10 +244,14 @@ module.exports = {
     /**
      * ES6
      */
+    "arrow-body-style": [             // http://eslint.org/docs/rules/arrow-body-style
+      2, "as-needed"
+    ],
     "arrow-parens": [2, "as-needed"], // http://eslint.org/docs/rules/arrow-parens
     "arrow-spacing": 2,               // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,           // http://eslint.org/docs/rules/constructor-super
     "generator-star-spacing": 0,      // http://eslint.org/docs/rules/generator-star-spacing TODO
+    "no-arrow-condition": 2,          // http://eslint.org/docs/rules/no-arrow-condition
     "no-class-assign": 2,             // http://eslint.org/docs/rules/no-class-assign
     "no-const-assign": 2,             // http://eslint.org/docs/rules/no-const-assign
     "no-dupe-class-members": 2,       // http://eslint.org/docs/rules/no-dupe-class-members
