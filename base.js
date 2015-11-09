@@ -80,6 +80,7 @@ module.exports = {
     "guard-for-in": 2,                // http://eslint.org/docs/rules/guard-for-in
     "no-alert": 2,                    // http://eslint.org/docs/rules/no-alert
     "no-caller": 2,                   // http://eslint.org/docs/rules/no-caller
+    "no-case-declarations": 2,        // http://eslint.org/docs/rules/no-case-declarations
     "no-div-regex": 2,                // http://eslint.org/docs/rules/no-div-regex
     "no-empty-label": 2,              // http://eslint.org/docs/rules/no-empty-label
     "no-empty-pattern": 2,            // http://eslint.org/docs/rules/no-empty-pattern
@@ -204,7 +205,12 @@ module.exports = {
     "no-restricted-syntax": 0,        // http://eslint.org/docs/rules/no-restricted-syntax TODO
     "no-spaced-func": 2,              // http://eslint.org/docs/rules/no-spaced-func
     "no-ternary": 0,                  // http://eslint.org/docs/rules/no-ternary
-    "no-trailing-spaces": 2,          // http://eslint.org/docs/rules/no-trailing-spaces
+    "no-trailing-spaces": [           // http://eslint.org/docs/rules/no-trailing-spaces
+      2,
+      {
+        "skipBlankLines": true
+      }
+    ],
     "no-underscore-dangle": 0,        // http://eslint.org/docs/rules/no-underscore-dangle
     "no-unneeded-ternary": 2,         // http://eslint.org/docs/rules/no-unneeded-ternary
     "object-curly-spacing": 0,        // http://eslint.org/docs/rules/object-curly-spacing
@@ -237,16 +243,14 @@ module.exports = {
     "space-infix-ops": 0,             // http://eslint.org/docs/rules/space-infix-ops // TODO
     "space-return-throw-case": 0,     // http://eslint.org/docs/rules/space-return-throw-case // TODO
     "space-unary-ops": 0,             // http://eslint.org/docs/rules/space-unary-ops // TODO
-    "spaced-comment": [2, "always"],  // http://eslint.org/docs/rules/spaced-comment
+    "spaced-comment": 0,              // http://eslint.org/docs/rules/spaced-comment
     "wrap-regex": 0,                  // http://eslint.org/docs/rules/wrap-regex
 
 
     /**
      * ES6
      */
-    "arrow-body-style": [             // http://eslint.org/docs/rules/arrow-body-style
-      2, "as-needed"
-    ],
+    "arrow-body-style": 0,            // http://eslint.org/docs/rules/arrow-body-style
     "arrow-parens": [2, "as-needed"], // http://eslint.org/docs/rules/arrow-parens
     "arrow-spacing": 2,               // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,           // http://eslint.org/docs/rules/constructor-super
