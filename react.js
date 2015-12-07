@@ -12,7 +12,7 @@ module.exports = {
   "rules": {
     "react/display-name": 2,                  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     "react/forbid-prop-types": 0,             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
-    "react/jsx-boolean-value": 2,             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
+    "react/jsx-boolean-value": 0,             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     "react/jsx-closing-bracket-location": 0,  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
     "react/jsx-curly-spacing": [2, 'never'],  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     "react/jsx-indent-props": [2, 2],         // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
