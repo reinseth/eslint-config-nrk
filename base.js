@@ -232,8 +232,7 @@ module.exports = {
     "quotes": [2, "single"],          // http://eslint.org/docs/rules/quotes
     "require-jsdoc": 0,               // http://eslint.org/docs/rules/require-jsdoc
     "semi-spacing": 2,                // http://eslint.org/docs/rules/semi-spacing
-    "semi": [2, "never"],             // Even in "never" mode, semicolons are still allowed to disambiguate statements beginning
-                                      // with [, (, /, +, or -: http://eslint.org/docs/rules/semi
+    "semi": [2, "always"],            // http://eslint.org/docs/rules/semi.html
     "sort-vars": 0,                   // http://eslint.org/docs/rules/sort-vars
     "space-after-keywords": 0,        // http://eslint.org/docs/rules/space-after-keywords // TODO
     "space-before-keywords": 0,       // http://eslint.org/docs/rules/space-before-keywords // TODO
