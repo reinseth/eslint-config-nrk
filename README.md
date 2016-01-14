@@ -1,29 +1,37 @@
 # eslint-config-nrk
-Shared eslint config for NRK.
 
-# Usage
-In your project, type
+And open/shared JavaScript coding standard configuration for NRK.no.
 
-`npm install --save-dev eslint`
+## Installation
 
-`npm install --save-dev git+ssh://git@github.com:nrkno/eslint-config-nrk.git`
+To install using [npm](https://www.npmjs.com), execute these command in the root of your project:
 
-## With React
-If you are using React, you also need to install eslint-plugin-react within your project:
+```sh
+npm install --save-dev eslint
+npm install --save-dev git+ssh://git@github.com:nrkno/eslint-config-nrk.git
+```
 
-`npm install --save-dev eslint-plugin-react`
+### Usage with React
+If you are using React, you also need to install [`eslint-plugin-react`]() within your project:
 
-Point your IDE at the project's local eslint package, not your global one:
+```sh
+npm install --save-dev eslint-plugin-react
+```
+
+Point your IDE at the project's local `eslint` package, not your global one:
 
 `<project>/node_modules/eslint`
 
-If you use the ```*.jsx``` extension, tell eslint explicitly to lint those files as well:
+If you use the ```*.jsx``` extension, tell `eslint` explicitly to lint those files as well:
 
-```eslint . --ext=.js,.jsx``` 
+```sh
+eslint . --ext=.js,.jsx
+```
 
-## .eslintrc
+## Configuration
 
-### Vanilla JavaScript projects using ES6 / JavaScript 2015
+`eslint` is configured by adding an `.eslintrc` file to the root of your project:
+
 ```json
 {
   "extends": [
@@ -32,7 +40,8 @@ If you use the ```*.jsx``` extension, tell eslint explicitly to lint those files
 }
 ```
 
-### React projects using ES6 / JavaScript 2015
+For React-support, you also need to add the `react` extension:
+
 ```json
 {
   "extends": [
@@ -41,6 +50,3 @@ If you use the ```*.jsx``` extension, tell eslint explicitly to lint those files
   ]
 }
 ```
-
-### Legacy ES5 projects
-TODO
