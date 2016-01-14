@@ -28,7 +28,7 @@ module.exports = {
     /**
      * Possible errors
      */
-    "comma-dangle": 0,                // http://eslint.org/docs/rules/comma-dangle
+    "comma-dangle": 2,                // http://eslint.org/docs/rules/comma-dangle
     "no-cond-assign": [               // http://eslint.org/docs/rules/no-cond-assign
       2, "always"
     ],
@@ -175,7 +175,13 @@ module.exports = {
     "func-style": 0,                  // http://eslint.org/docs/rules/func-style
     "id-length": 0,                   // http://eslint.org/docs/rules/id-length,
     "id-match": 0,                    // http://eslint.org/docs/rules/id-match
-    "indent": [2, 2],                 // http://eslint.org/docs/rules/indent
+    "indent": [                       // http://eslint.org/docs/rules/indent
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
     "key-spacing": [                  // http://eslint.org/docs/rules/key-spacing
       2, {
         "beforeColon": false,
@@ -250,7 +256,7 @@ module.exports = {
      * ES6
      */
     "arrow-body-style": 0,            // http://eslint.org/docs/rules/arrow-body-style
-    "arrow-parens": [2, "as-needed"], // http://eslint.org/docs/rules/arrow-parens
+    "arrow-parens": [2, "always"],    // http://eslint.org/docs/rules/arrow-parens
     "arrow-spacing": 2,               // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,           // http://eslint.org/docs/rules/constructor-super
     "generator-star-spacing": 0,      // http://eslint.org/docs/rules/generator-star-spacing TODO
@@ -274,7 +280,8 @@ module.exports = {
   },
   "env": {
     "es6": true,
-    "browser": true
+    "browser": true,
+    "node": true
   }
 
 };
