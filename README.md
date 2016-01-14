@@ -1,6 +1,6 @@
 # eslint-config-nrk
 
-And open/shared JavaScript coding standard configuration for NRK.no.
+An open/shared JavaScript coding standard configuration for NRK.no.
 
 ## Installation
 
