@@ -14,11 +14,11 @@ function keysDoNotStartWith (keys, str) {
 
 describe('eslint-config-nrk', () => {
   it('should not combine base rules with react rules', (done) => {
-    const files = fs.readdirSync(path.resolve(__dirname, '../src'));
+    const files = fs.readdirSync(path.resolve(__dirname, '../rules'));
 
     files
       .forEach((file) => {
-        const config = require(`../src/${file}`);
+        const config = require(`../rules/${file}`);
 
         if (file === 'react.js') {
           // Make sure all react rules starts with `react/`
