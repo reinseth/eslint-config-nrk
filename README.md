@@ -50,3 +50,15 @@ For React-support, you also need to add the `react` extension:
   ]
 }
 ```
+
+For JSX-support, add the `jsx` extension:
+
+```json
+{
+  "extends": [
+    "nrk",
+    "nrk/jsx",
+    "nrk/react"
+  ]
+}
+```
