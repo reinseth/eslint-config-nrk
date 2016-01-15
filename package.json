@@ -2,7 +2,7 @@
   "name": "eslint-config-nrk",
   "version": "0.0.1",
   "description": "Shared eslint config for NRK",
-  "main": "base.js",
+  "main": "src/base.js",
   "scripts": {
     "test": "mocha --require babel-core/register test/**/*.spec.js"
   },
