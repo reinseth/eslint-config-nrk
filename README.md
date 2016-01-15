@@ -46,19 +46,19 @@ For React-support, you also need to add the `react` extension:
 {
   "extends": [
     "nrk",
-    "nrk/react"
+    "nrk/rules/react"
   ]
 }
 ```
 
-For JSX-support, add the `jsx` extension:
+For JSX-support, add the `jsx` extension separately:
 
 ```json
 {
   "extends": [
     "nrk",
-    "nrk/jsx",
-    "nrk/react"
+    "nrk/rules/jsx",
+    "nrk/rules/react"
   ]
 }
 ```
