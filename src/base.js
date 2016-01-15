@@ -1,3 +1,5 @@
+/* eslint-disable quote-props, quotes */
+
 module.exports = {
 
   "ecmaFeatures": {
@@ -72,7 +74,7 @@ module.exports = {
     "default-case": 2,                // http://eslint.org/docs/rules/default-case
     "dot-notation": [                 // http://eslint.org/docs/rules/dot-notation
       2, {
-      "allowKeywords": true
+        "allowKeywords": true
       }
     ],
     "dot-location": 0,                // http://eslint.org/docs/rules/dot-location
@@ -272,7 +274,7 @@ module.exports = {
     "prefer-spread": 2,               // http://eslint.org/docs/rules/prefer-spread
     "prefer-reflect": 0,              // http://eslint.org/docs/rules/prefer-reflect
     "prefer-template": 2,             // http://eslint.org/docs/rules/prefer-template
-    "require-yield": 0,               // http://eslint.org/docs/rules/require-yield TODO
+    "require-yield": 0                // http://eslint.org/docs/rules/require-yield TODO
   },
   "globals": {
     "define": true,
