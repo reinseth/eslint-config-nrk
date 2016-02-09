@@ -14,7 +14,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "NRK <dev@nrk.no> (http://www.nrk.no/)",
+  "author": "NRK <opensource@nrk.no> (http://www.nrk.no/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nrkno/eslint-config-nrk/issues"
