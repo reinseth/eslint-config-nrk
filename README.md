@@ -12,7 +12,7 @@ npm install --save-dev git+ssh://git@github.com:nrkno/eslint-config-nrk.git
 ```
 
 ### Usage with React
-If you are using React, you also need to install [`eslint-plugin-react`]() within your project:
+If you are using React, you also need to install [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react) within your project:
 
 ```sh
 npm install --save-dev eslint-plugin-react
