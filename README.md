@@ -1,6 +1,6 @@
 # eslint-config-nrk
 
-And open/shared JavaScript coding standard configuration for NRK.no.
+An open/shared JavaScript (ES2015) coding standard configuration for NRK.no.
 
 ## Installation
 
@@ -17,10 +17,6 @@ If you are using React, you also need to install [`eslint-plugin-react`]() withi
 ```sh
 npm install --save-dev eslint-plugin-react
 ```
-
-Point your IDE at the project's local `eslint` package, not your global one:
-
-`<project>/node_modules/eslint`
 
 If you use the ```*.jsx``` extension, tell `eslint` explicitly to lint those files as well:
 
@@ -46,7 +42,19 @@ For React-support, you also need to add the `react` extension:
 {
   "extends": [
     "nrk",
-    "nrk/react"
+    "nrk/rules/react"
+  ]
+}
+```
+
+For JSX-support, add the `jsx` extension separately:
+
+```json
+{
+  "extends": [
+    "nrk",
+    "nrk/rules/jsx",
+    "nrk/rules/react"
   ]
 }
 ```
