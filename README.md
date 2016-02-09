@@ -18,10 +18,6 @@ If you are using React, you also need to install [`eslint-plugin-react`]() withi
 npm install --save-dev eslint-plugin-react
 ```
 
-Point your IDE at the project's local `eslint` package, not your global one:
-
-`<project>/node_modules/eslint`
-
 If you use the ```*.jsx``` extension, tell `eslint` explicitly to lint those files as well:
 
 ```sh
