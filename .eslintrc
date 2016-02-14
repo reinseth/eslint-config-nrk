@@ -3,6 +3,6 @@
     "node": true
   },
   "extends": [
-    "./rules/base.js"
+    "./rules/es2015.js"
   ]
 }
