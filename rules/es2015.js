@@ -280,7 +280,7 @@ module.exports = {
      * ES6
      */
     "arrow-body-style": 0,            // http://eslint.org/docs/rules/arrow-body-style
-    "arrow-parens": [2, "always"],    // http://eslint.org/docs/rules/arrow-parens
+    "arrow-parens": [2, "as-needed"], // http://eslint.org/docs/rules/arrow-parens
     "arrow-spacing": 2,               // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,           // http://eslint.org/docs/rules/constructor-super
     "generator-star-spacing": 0,      // http://eslint.org/docs/rules/generator-star-spacing
