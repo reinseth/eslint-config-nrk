@@ -10,6 +10,7 @@ module.exports = {
     "react/jsx-boolean-value": 0,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     "react/jsx-closing-bracket-location": 0,               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
     "react/jsx-curly-spacing": [2, "never"],               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
+    "react/jsx-equals-spacing": [2, "never"],              // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
     "react/jsx-indent-props": [                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
       0,
       0
