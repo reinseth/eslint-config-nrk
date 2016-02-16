@@ -68,7 +68,7 @@ module.exports = {
      */
     "accessor-pairs": 2,              // http://eslint.org/docs/rules/accessor-pairs
     "block-scoped-var": 2,            // http://eslint.org/docs/rules/block-scoped-var
-    "complexity": 0,                  // http://eslint.org/docs/rules/complexity TODO
+    "complexity": 9,                  // http://eslint.org/docs/rules/complexity
     "consistent-return": 2,           // http://eslint.org/docs/rules/consistent-return
     "curly": 2,                       // http://eslint.org/docs/rules/curly
     "default-case": 2,                // http://eslint.org/docs/rules/default-case
@@ -93,6 +93,7 @@ module.exports = {
     "no-extra-bind": 2,               // http://eslint.org/docs/rules/no-extra-bind
     "no-fallthrough": 2,              // http://eslint.org/docs/rules/no-fallthrough
     "no-floating-decimal": 2,         // http://eslint.org/docs/rules/no-floating-decimal
+    "no-invalid-this": 2,             // http://eslint.org/docs/rules/no-invalid-this
     "no-implicit-coercion": [         // http://eslint.org/docs/rules/no-implicit-coercion
       2, {
         "boolean": false,
@@ -101,6 +102,8 @@ module.exports = {
       }
     ],
     "no-implied-eval": 2,             // http://eslint.org/docs/rules/no-implied-eval
+    "no-iterator": 2,                 // http://eslint.org/docs/rules/no-iterator
+    "no-labels": 2,                   // http://eslint.org/docs/rules/no-labels
     "no-lone-blocks": 2,              // http://eslint.org/docs/rules/no-lone-blocks
     "no-loop-func": 2,                // http://eslint.org/docs/rules/no-loop-func
     "no-magic-numbers": 0,            // http://eslint.org/docs/rules/no-magic-numbers
@@ -113,6 +116,7 @@ module.exports = {
     "no-octal": 2,                    // http://eslint.org/docs/rules/no-octal
     "no-octal-escape": 2,             // http://eslint.org/docs/rules/no-octal-escape
     "no-param-reassign": 1,           // http://eslint.org/docs/rules/no-param-reassign
+    "no-process-env": 1,              // http://eslint.org/docs/rules/no-process-env
     "no-proto": 2,                    // http://eslint.org/docs/rules/no-proto
     "no-redeclare": 2,                // http://eslint.org/docs/rules/no-redeclare
     "no-return-assign": 2,            // http://eslint.org/docs/rules/no-return-assign
@@ -120,6 +124,15 @@ module.exports = {
     "no-self-compare": 2,             // http://eslint.org/docs/rules/no-self-compare
     "no-sequences": 2,                // http://eslint.org/docs/rules/no-sequences
     "no-throw-literal": 2,            // http://eslint.org/docs/rules/no-throw-literal
+    "no-unused-expressions": [        // http://eslint.org/docs/rules/no-unused-expressions
+      2, {
+        allowShortCircuit: true,
+        allowTernary: true
+      }
+    ],
+    "no-useless-call": 2,             // http://eslint.org/docs/rules/no-useless-call
+    "no-useless-concat": 2,           // http://eslint.org/docs/rules/no-useless-concat
+    "no-void": 2,                     // http://eslint.org/docs/rules/no-void
     "no-warning-comments": 2,         // http://eslint.org/docs/rules/no-warning-comments
     "no-with": 2,                     // http://eslint.org/docs/rules/no-with
     "radix": 2,                       // http://eslint.org/docs/rules/radix
@@ -141,7 +154,7 @@ module.exports = {
     "no-delete-var": 2,               // http://eslint.org/docs/rules/no-delete-var
     "no-label-var": 2,                // http://eslint.org/docs/rules/no-label-var
     "no-shadow-restricted-names": 2,  // http://eslint.org/docs/rules/no-shadow-restricted-names
-    "no-shadow": 0,                   // http://eslint.org/docs/rules/no-shadow TODO
+    "no-shadow": 0,                   // http://eslint.org/docs/rules/no-shadow
     "no-undef-init": 2,               // http://eslint.org/docs/rules/no-undef-init
     "no-undef": 2,                    // http://eslint.org/docs/rules/no-undef
     "no-undefined": 2,                // http://eslint.org/docs/rules/no-undefined
@@ -192,8 +205,16 @@ module.exports = {
     ],
     "linebreak-style": [2, "unix"],   // http://eslint.org/docs/rules/linebreak-style
     "lines-around-comment": 2,        // http://eslint.org/docs/rules/lines-around-comment
+    "max-depth": [2, 4],              // http://eslint.org/docs/rules/max-depth
+    "max-len": [0, 80],               // http://eslint.org/docs/rules/max-len
     "max-nested-callbacks": [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
+    "max-params": [2, 3],             // http://eslint.org/docs/rules/max-params
+    "max-statements": [0, 2],         // http://eslint.org/docs/rules/max-statements
+    "new-cap": 2,                     // http://eslint.org/docs/rules/new-cap
+    "new-parens": 2,                  // http://eslint.org/docs/rules/new-parens
+    "newline-after-var": 0,           // http://eslint.org/docs/rules/newline-after-var
     "no-array-constructor": 2,        // http://eslint.org/docs/rules/no-array-constructor
+    "no-bitwise": 2,                  // http://eslint.org/docs/rules/no-bitwise
     "no-continue": 2,                 // http://eslint.org/docs/rules/no-continue
     "no-inline-comments": 0,          // http://eslint.org/docs/rules/no-inline-comments
     "no-lonely-if": 2,                // http://eslint.org/docs/rules/no-lonely-if
@@ -210,7 +231,8 @@ module.exports = {
     "no-nested-ternary": 2,           // http://eslint.org/docs/rules/no-nested-ternary
     "no-negated-condition": 0,        // http://eslint.org/docs/rules/no-negated-condition
     "no-new-object": 2,               // http://eslint.org/docs/rules/no-new-object
-    "no-restricted-syntax": 0,        // http://eslint.org/docs/rules/no-restricted-syntax TODO
+    "no-plusplus": 0,                 // http://eslint.org/docs/rules/no-plusplus
+    "no-restricted-syntax": 0,        // http://eslint.org/docs/rules/no-restricted-syntax
     "no-spaced-func": 2,              // http://eslint.org/docs/rules/no-spaced-func
     "no-ternary": 0,                  // http://eslint.org/docs/rules/no-ternary
     "no-trailing-spaces": [           // http://eslint.org/docs/rules/no-trailing-spaces
@@ -222,9 +244,9 @@ module.exports = {
     "no-underscore-dangle": 0,        // http://eslint.org/docs/rules/no-underscore-dangle
     "no-unneeded-ternary": 2,         // http://eslint.org/docs/rules/no-unneeded-ternary
     "object-curly-spacing": 0,        // http://eslint.org/docs/rules/object-curly-spacing
-    "one-var": 0,                     // http://eslint.org/docs/rules/one-var TODO
+    "one-var": 0,                     // http://eslint.org/docs/rules/one-var
     "operator-assignment": 0,         // http://eslint.org/docs/rules/operator-assignment
-    "operator-linebreak": [           // http://eslint.org/docs/rules/operator-linebreak TODO
+    "operator-linebreak": [           // http://eslint.org/docs/rules/operator-linebreak
       2,
       "before",
       {
@@ -242,14 +264,14 @@ module.exports = {
     "semi-spacing": 2,                // http://eslint.org/docs/rules/semi-spacing
     "semi": [2, "always"],            // http://eslint.org/docs/rules/semi.html
     "sort-vars": 0,                   // http://eslint.org/docs/rules/sort-vars
-    "space-after-keywords": 0,        // http://eslint.org/docs/rules/space-after-keywords // TODO
-    "space-before-keywords": 0,       // http://eslint.org/docs/rules/space-before-keywords // TODO
-    "space-before-blocks": 0,         // http://eslint.org/docs/rules/space-before-blocks // TODO
-    "space-before-function-paren": 0, // http://eslint.org/docs/rules/space-before-function-paren // TODO
-    "space-in-parens": 0,             // http://eslint.org/docs/rules/space-in-parens" TODO
-    "space-infix-ops": 0,             // http://eslint.org/docs/rules/space-infix-ops // TODO
-    "space-return-throw-case": 0,     // http://eslint.org/docs/rules/space-return-throw-case // TODO
-    "space-unary-ops": 0,             // http://eslint.org/docs/rules/space-unary-ops // TODO
+    "space-after-keywords": 0,        // http://eslint.org/docs/rules/space-after-keywords
+    "space-before-keywords": 0,       // http://eslint.org/docs/rules/space-before-keywords
+    "space-before-blocks": 0,         // http://eslint.org/docs/rules/space-before-blocks
+    "space-before-function-paren": 0, // http://eslint.org/docs/rules/space-before-function-paren
+    "space-in-parens": 0,             // http://eslint.org/docs/rules/space-in-parens
+    "space-infix-ops": 0,             // http://eslint.org/docs/rules/space-infix-ops
+    "space-return-throw-case": 0,     // http://eslint.org/docs/rules/space-return-throw-case
+    "space-unary-ops": 0,             // http://eslint.org/docs/rules/space-unary-ops
     "spaced-comment": 0,              // http://eslint.org/docs/rules/spaced-comment
     "wrap-regex": 0,                  // http://eslint.org/docs/rules/wrap-regex
 
@@ -261,7 +283,7 @@ module.exports = {
     "arrow-parens": [2, "always"],    // http://eslint.org/docs/rules/arrow-parens
     "arrow-spacing": 2,               // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,           // http://eslint.org/docs/rules/constructor-super
-    "generator-star-spacing": 0,      // http://eslint.org/docs/rules/generator-star-spacing TODO
+    "generator-star-spacing": 0,      // http://eslint.org/docs/rules/generator-star-spacing
     "no-arrow-condition": 2,          // http://eslint.org/docs/rules/no-arrow-condition
     "no-class-assign": 2,             // http://eslint.org/docs/rules/no-class-assign
     "no-const-assign": 2,             // http://eslint.org/docs/rules/no-const-assign
@@ -274,7 +296,7 @@ module.exports = {
     "prefer-spread": 2,               // http://eslint.org/docs/rules/prefer-spread
     "prefer-reflect": 0,              // http://eslint.org/docs/rules/prefer-reflect
     "prefer-template": 2,             // http://eslint.org/docs/rules/prefer-template
-    "require-yield": 0                // http://eslint.org/docs/rules/require-yield TODO
+    "require-yield": 0                // http://eslint.org/docs/rules/require-yield
   },
   "globals": {
     "define": true,
