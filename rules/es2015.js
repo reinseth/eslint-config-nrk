@@ -68,7 +68,7 @@ module.exports = {
      */
     "accessor-pairs": 2,              // http://eslint.org/docs/rules/accessor-pairs
     "block-scoped-var": 2,            // http://eslint.org/docs/rules/block-scoped-var
-    "complexity": 9,                  // http://eslint.org/docs/rules/complexity
+    "complexity": [2, 9],             // http://eslint.org/docs/rules/complexity
     "consistent-return": 2,           // http://eslint.org/docs/rules/consistent-return
     "curly": 2,                       // http://eslint.org/docs/rules/curly
     "default-case": 2,                // http://eslint.org/docs/rules/default-case
