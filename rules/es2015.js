@@ -30,7 +30,7 @@ module.exports = {
     /**
      * Possible errors
      */
-    "comma-dangle": 2,                // http://eslint.org/docs/rules/comma-dangle
+    "comma-dangle": 0,                // http://eslint.org/docs/rules/comma-dangle
     "no-cond-assign": [               // http://eslint.org/docs/rules/no-cond-assign
       2, "always"
     ],
