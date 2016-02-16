@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nrk",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Shared eslint config for NRK",
   "main": "base.js",
   "scripts": {
