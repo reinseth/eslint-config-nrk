@@ -4,7 +4,8 @@
   "description": "Shared eslint config for NRK",
   "main": "base.js",
   "scripts": {
-    "test": "mocha --require babel-core/register test/**/*.spec.js"
+    "test": "mocha --require babel-core/register test/**/*.spec.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
