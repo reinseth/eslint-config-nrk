@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/nrkno/eslint-config-nrk#readme",
   "dependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^2.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",

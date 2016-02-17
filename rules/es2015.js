@@ -1,30 +1,13 @@
 /* eslint-disable quote-props, quotes */
 
 module.exports = {
-
-  "ecmaFeatures": {
-    "arrowFunctions": true, // enable arrow functions
-    "blockBindings": true, // - enable let and const (aka block bindings)
-    "classes": true, // - enable classes
-    "defaultParams": true, // - enable default function parameters
-    "destructuring": true, // - enable destructuring
-    "forOf": true, // - enable for-of loops
-    "generators": false, // - enable generators
-    "modules": true, // - enable modules and global strict mode
-    "objectLiteralComputedProperties": true, // - enable computed object literal property names
-    "objectLiteralDuplicateProperties": false, // - enable duplicate object literal properties in strict mode
-    "objectLiteralShorthandMethods": true, // - enable object literal shorthand methods
-    "objectLiteralShorthandProperties": true, // - enable object literal shorthand properties
-    "regexUFlag": true, // enable the regular expression u flag
-    "regexYFlag": true, // - enable the regular expression y flag
-    "restParams": true, // - enable the rest parameters
-    "spread": true, // - enable the spread operator for arrays
-    "superInFunctions": true, // - enable super references inside of functions
-    "templateStrings": true, // - enable template strings
-    "jsx": false, // - enable JSX
-    "experimentalObjectRestSpread": true // enable support for the experimental object rest/spread properties
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true // enable support for the experimental object rest/spread properties
+    }
   },
-
   "rules": {
 
     /**
@@ -84,7 +67,7 @@ module.exports = {
     "no-caller": 2,                   // http://eslint.org/docs/rules/no-caller
     "no-case-declarations": 2,        // http://eslint.org/docs/rules/no-case-declarations
     "no-div-regex": 2,                // http://eslint.org/docs/rules/no-div-regex
-    "no-empty-label": 2,              // http://eslint.org/docs/rules/no-empty-label
+
     "no-empty-pattern": 2,            // http://eslint.org/docs/rules/no-empty-pattern
     "no-else-return": 2,              // http://eslint.org/docs/rules/no-else-return
     "no-eq-null": 2,                  // http://eslint.org/docs/rules/no-eq-null
@@ -121,6 +104,7 @@ module.exports = {
     "no-redeclare": 2,                // http://eslint.org/docs/rules/no-redeclare
     "no-return-assign": 2,            // http://eslint.org/docs/rules/no-return-assign
     "no-script-url": 2,               // http://eslint.org/docs/rules/no-script-url
+    "no-self-assign": 2,              // http://eslint.org/docs/rules/no-self-assign
     "no-self-compare": 2,             // http://eslint.org/docs/rules/no-self-compare
     "no-sequences": 2,                // http://eslint.org/docs/rules/no-sequences
     "no-throw-literal": 2,            // http://eslint.org/docs/rules/no-throw-literal
@@ -130,6 +114,7 @@ module.exports = {
         allowTernary: true
       }
     ],
+    "no-unused-labels": 2,            // http://eslint.org/docs/rules/no-unused-labels
     "no-useless-call": 2,             // http://eslint.org/docs/rules/no-useless-call
     "no-useless-concat": 2,           // http://eslint.org/docs/rules/no-useless-concat
     "no-void": 2,                     // http://eslint.org/docs/rules/no-void
@@ -203,6 +188,7 @@ module.exports = {
         "afterColon": true
       }
     ],
+    "keyword-spacing": 0,             // http://eslint.org/docs/rules/keyword-spacing
     "linebreak-style": [2, "unix"],   // http://eslint.org/docs/rules/linebreak-style
     "lines-around-comment": 2,        // http://eslint.org/docs/rules/lines-around-comment
     "max-depth": [2, 4],              // http://eslint.org/docs/rules/max-depth
@@ -262,19 +248,15 @@ module.exports = {
     "quotes": [2, "single"],          // http://eslint.org/docs/rules/quotes
     "require-jsdoc": 0,               // http://eslint.org/docs/rules/require-jsdoc
     "semi-spacing": 2,                // http://eslint.org/docs/rules/semi-spacing
-    "semi": [2, "always"],            // http://eslint.org/docs/rules/semi.html
+    "semi": [2, "never"],            // http://eslint.org/docs/rules/semi.html
     "sort-vars": 0,                   // http://eslint.org/docs/rules/sort-vars
-    "space-after-keywords": 0,        // http://eslint.org/docs/rules/space-after-keywords
-    "space-before-keywords": 0,       // http://eslint.org/docs/rules/space-before-keywords
     "space-before-blocks": 0,         // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": 0, // http://eslint.org/docs/rules/space-before-function-paren
     "space-in-parens": 0,             // http://eslint.org/docs/rules/space-in-parens
     "space-infix-ops": 0,             // http://eslint.org/docs/rules/space-infix-ops
-    "space-return-throw-case": 0,     // http://eslint.org/docs/rules/space-return-throw-case
     "space-unary-ops": 0,             // http://eslint.org/docs/rules/space-unary-ops
     "spaced-comment": 0,              // http://eslint.org/docs/rules/spaced-comment
     "wrap-regex": 0,                  // http://eslint.org/docs/rules/wrap-regex
-
 
     /**
      * ES6
@@ -284,10 +266,11 @@ module.exports = {
     "arrow-spacing": 2,               // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,           // http://eslint.org/docs/rules/constructor-super
     "generator-star-spacing": 0,      // http://eslint.org/docs/rules/generator-star-spacing
-    "no-arrow-condition": 2,          // http://eslint.org/docs/rules/no-arrow-condition
     "no-class-assign": 2,             // http://eslint.org/docs/rules/no-class-assign
+    "no-confusing-arrow": 2,          // http://eslint.org/docs/rules/no-confusing-arrow
     "no-const-assign": 2,             // http://eslint.org/docs/rules/no-const-assign
     "no-dupe-class-members": 2,       // http://eslint.org/docs/rules/no-dupe-class-members
+    "no-new-symbol": 2,               // http://eslint.org/docs/rules/no-new-symbol
     "no-this-before-super": 2,        // http://eslint.org/docs/rules/no-this-before-super
     "no-var": 2,                      // http://eslint.org/docs/rules/no-var
     "object-shorthand": 1,            // http://eslint.org/docs/rules/object-shorthand
