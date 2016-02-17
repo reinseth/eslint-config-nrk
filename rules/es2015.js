@@ -248,7 +248,7 @@ module.exports = {
     "quotes": [2, "single"],          // http://eslint.org/docs/rules/quotes
     "require-jsdoc": 0,               // http://eslint.org/docs/rules/require-jsdoc
     "semi-spacing": 2,                // http://eslint.org/docs/rules/semi-spacing
-    "semi": [2, "never"],            // http://eslint.org/docs/rules/semi.html
+    "semi": [2, "always"],            // http://eslint.org/docs/rules/semi.html
     "sort-vars": 0,                   // http://eslint.org/docs/rules/sort-vars
     "space-before-blocks": 0,         // http://eslint.org/docs/rules/space-before-blocks
     "space-before-function-paren": 0, // http://eslint.org/docs/rules/space-before-function-paren
