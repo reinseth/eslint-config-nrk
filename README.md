@@ -1,10 +1,10 @@
 # eslint-config-nrk
 
-An open/shared JavaScript (ES2015) coding standard configuration for NRK.no.
+An open/shared JavaScript (ES2015) coding standard configuration for NRK.no. Uses [`eslint`](http://eslint.org/) 2.x. For 1.x configuration, see the 1.x branch.
 
 ## Installation
 
-To install using [npm](https://www.npmjs.com), execute these command in the root of your project:
+To install using [`npm`](https://www.npmjs.com), execute these command in the root of your project:
 
 ```sh
 npm install --save-dev eslint
@@ -26,7 +26,7 @@ eslint . --ext=.js,.jsx
 
 ## Configuration
 
-`eslint` is configured by adding an `.eslintrc` file to the root of your project:
+`eslint` is configured by adding an `.eslintrc.json` file to the root of your project:
 
 ```json
 {
@@ -58,3 +58,5 @@ For JSX-support, add the `jsx` extension separately:
   ]
 }
 ```
+
+See the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
