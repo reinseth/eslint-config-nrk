@@ -281,10 +281,6 @@ module.exports = {
     "prefer-template": 2,             // http://eslint.org/docs/rules/prefer-template
     "require-yield": 0                // http://eslint.org/docs/rules/require-yield
   },
-  "globals": {
-    "define": true,
-    "require": true
-  },
   "env": {
     "es6": true,
     "browser": true,
