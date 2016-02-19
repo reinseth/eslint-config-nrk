@@ -1,6 +1,6 @@
 # eslint-config-nrk
 
-An open/shared JavaScript (ES2015) coding standard configuration for NRK.no. Uses [`eslint`](http://eslint.org/) 2.x. For 1.x configuration, see the 1.x branch.
+An open/shared JavaScript (ES2015) coding standard configuration for NRK.no. Uses [`eslint`](http://eslint.org/) 2.x. For 1.x configuration, see the [1.x branch](https://github.com/nrkno/eslint-config-nrk/tree/1.X).
 
 ## Installation
 
