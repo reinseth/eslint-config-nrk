@@ -6,7 +6,7 @@ module.exports = {
     "react"
   ],
   "rules": {
-    "react/display-name": 2,                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
+    "react/display-name": 0,                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     "react/no-danger": 1,                                  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
     "react/no-did-mount-set-state": [                      // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
       1,
