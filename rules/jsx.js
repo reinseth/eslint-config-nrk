@@ -29,8 +29,8 @@ module.exports = {
     "react/jsx-no-undef": 2,                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     "jsx-quotes": [2, "prefer-double"],                    // http://eslint.org/docs/rules/jsx-quotes
     "react/jsx-pascal-case": 2,                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-    "react/jsx-sort-prop-types": 0,                        // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
     "react/jsx-sort-props": 0,                             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
+    "react/jsx-space-before-closing": [2, "always"],       // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
     "react/jsx-uses-react": 2,                             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     "react/jsx-uses-vars": 2                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
   }

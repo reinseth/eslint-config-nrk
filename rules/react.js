@@ -23,6 +23,7 @@ module.exports = {
     "react/require-extension": 0,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
     "react/self-closing-comp": 2,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     "react/sort-comp": 2,                                  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
+    "react/sort-prop-types": 0,                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
     "react/wrap-multilines": 2,                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
     "react/forbid-prop-types": 0                           // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
   }
