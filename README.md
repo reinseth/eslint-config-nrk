@@ -4,11 +4,11 @@ An open/shared JavaScript (ES2015) coding standard configuration for NRK.no. Use
 
 ## Installation
 
-To install using [`npm`](https://www.npmjs.com), execute these command in the root of your project:
+To install using [`npm`](https://www.npmjs.com), execute these commands in the root of your project:
 
 ```sh
 npm install --save-dev eslint
-npm install --save-dev git+ssh://git@github.com:nrkno/eslint-config-nrk.git
+npm install --save-dev nrkno/eslint-config-nrk
 ```
 
 ### Usage with React
