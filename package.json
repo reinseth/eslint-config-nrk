@@ -5,6 +5,8 @@
   "main": "base.js",
   "scripts": {
     "test": "mocha --require babel-core/register test/**/*.spec.js",
+    "test-travis": "istanbul cover _mocha -- --require babel-core/register -R spec ./test/**/*.spec.js",
+    "coveralls": "npm run test-travis -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint ."
   },
   "repository": {
@@ -30,7 +32,10 @@
     "babel-core": "^6.5.2",
     "babel-preset-es2015": "^6.5.0",
     "chai": "^3.5.0",
+    "coveralls": "^2.11.6",
     "eslint": "^2.1.0",
-    "mocha": "^2.4.5"
+    "istanbul": "1.0.0-alpha.2",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }
