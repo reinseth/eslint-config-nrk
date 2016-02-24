@@ -5,19 +5,19 @@ import path from 'path';
 import {assert} from 'chai';
 
 function keysStartWith (keys, str) {
-  return keys.filter(key => key.indexOf(str) === 0).length === keys.length;
+  return keys.filter((key) => key.indexOf(str) === 0).length === keys.length;
 }
 
 function keysDoNotStartWith (keys, str) {
-  return keys.filter(key => key.indexOf(str) === -1).length === keys.length;
+  return keys.filter((key) => key.indexOf(str) === -1).length === keys.length;
 }
 
 describe('eslint-config-nrk', () => {
-  it('should not combine base rules with react rules', done => {
+  it('should not combine base rules with react rules', () => {
     const files = fs.readdirSync(path.resolve(__dirname, '../rules'));
 
     files
-      .forEach(file => {
+      .forEach((file) => {
         const config = require(`../rules/${file}`);
 
         if (file === 'react.js') {
@@ -31,7 +31,5 @@ describe('eslint-config-nrk', () => {
           assert.equal(keysDoNotStartWith(Object.keys(config.rules), 'react/'), true);
         }
       });
-
-    done();
   });
 });
