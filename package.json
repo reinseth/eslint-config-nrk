@@ -7,6 +7,10 @@
     "test": "mocha --require babel-core/register test/**/*.spec.js",
     "lint": "eslint ."
   },
+  "pre-commit": [
+    "test",
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nrkno/eslint-config-nrk.git"
@@ -31,6 +35,7 @@
     "babel-preset-es2015": "^6.5.0",
     "chai": "^3.5.0",
     "eslint": "^2.1.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "pre-commit": "^1.1.2"
   }
 }
