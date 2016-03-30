@@ -117,6 +117,7 @@ module.exports = {
     "no-unused-labels": 2,            // http://eslint.org/docs/rules/no-unused-labels
     "no-useless-call": 2,             // http://eslint.org/docs/rules/no-useless-call
     "no-useless-concat": 2,           // http://eslint.org/docs/rules/no-useless-concat
+    "no-useless-escape": 2,           // http://eslint.org/docs/rules/no-useless-escape
     "no-void": 2,                     // http://eslint.org/docs/rules/no-void
     "no-warning-comments": 2,         // http://eslint.org/docs/rules/no-warning-comments
     "no-with": 2,                     // http://eslint.org/docs/rules/no-with
@@ -196,9 +197,15 @@ module.exports = {
     "max-nested-callbacks": [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
     "max-params": [2, 3],             // http://eslint.org/docs/rules/max-params
     "max-statements": [0, 2],         // http://eslint.org/docs/rules/max-statements
+    "max-statements-per-line": [
+      2, {
+        "max": 2
+      }
+    ],
     "new-cap": 2,                     // http://eslint.org/docs/rules/new-cap
     "new-parens": 2,                  // http://eslint.org/docs/rules/new-parens
     "newline-after-var": 0,           // http://eslint.org/docs/rules/newline-after-var
+    "newline-before-return": 0,       // http://eslint.org/docs/rules/newline-before-return
     "no-array-constructor": 2,        // http://eslint.org/docs/rules/no-array-constructor
     "no-bitwise": 2,                  // http://eslint.org/docs/rules/no-bitwise
     "no-continue": 2,                 // http://eslint.org/docs/rules/no-continue
@@ -270,6 +277,7 @@ module.exports = {
     "no-confusing-arrow": 2,          // http://eslint.org/docs/rules/no-confusing-arrow
     "no-const-assign": 2,             // http://eslint.org/docs/rules/no-const-assign
     "no-dupe-class-members": 2,       // http://eslint.org/docs/rules/no-dupe-class-members
+    "no-duplicate-imports": 1,        // http://eslint.org/docs/rules/no-duplicate-imports
     "no-new-symbol": 2,               // http://eslint.org/docs/rules/no-new-symbol
     "no-this-before-super": 2,        // http://eslint.org/docs/rules/no-this-before-super
     "no-var": 2,                      // http://eslint.org/docs/rules/no-var
