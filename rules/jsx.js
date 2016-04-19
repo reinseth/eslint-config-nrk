@@ -9,6 +9,7 @@ module.exports = {
     'react/jsx-closing-bracket-location': 0,               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
     'react/jsx-curly-spacing': [2, 'never'],               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     'react/jsx-equals-spacing': [2, 'never'],              // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
+    'jsx-first-prop-new-line': 0,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
     'react/jsx-handler-names': 1,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-indent': [2, 2],                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
     'react/jsx-indent-props': [                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md

@@ -30,7 +30,7 @@
   "dependencies": {},
   "peerDependencies": {
     "eslint": "^2.5.3",
-    "eslint-plugin-react": "^4.2.3"
+    "eslint-plugin-react": "^5.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.5.2",
