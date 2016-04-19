@@ -7,5 +7,5 @@ module.exports = {
   },
   extends: [
     './rules/core.js'
-  ],
+  ].map(require.resolve)
 };

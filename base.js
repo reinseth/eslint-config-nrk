@@ -12,5 +12,5 @@ module.exports = {
   extends: [
     './rules/core.js',
     './rules/es6.js',
-  ]
+  ].map(require.resolve)
 };
