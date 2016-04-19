@@ -1,11 +1,16 @@
-/* eslint-disable quote-props, quotes */
-
 module.exports = {
-
+  env: {
+    es6: true
+  },
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true // enable support for the experimental object rest/spread properties
+    }
+  },
   extends: [
-    "nrk/rules/es2015"
-  ],
-
-  rules: {}
-
+    './rules/core.js',
+    './rules/es6.js',
+  ].map(require.resolve)
 };
