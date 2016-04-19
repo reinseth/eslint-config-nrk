@@ -9,6 +9,7 @@ module.exports = {
     'no-confusing-arrow': 2,          // http://eslint.org/docs/rules/no-confusing-arrow
     'no-const-assign': 2,             // http://eslint.org/docs/rules/no-const-assign
     'no-dupe-class-members': 2,       // http://eslint.org/docs/rules/no-dupe-class-members
+    'no-duplicate-imports': 1,        // http://eslint.org/docs/rules/no-duplicate-imports
     'no-new-symbol': 2,               // http://eslint.org/docs/rules/no-new-symbol
     'no-this-before-super': 2,        // http://eslint.org/docs/rules/no-this-before-super
     'no-var': 2,                      // http://eslint.org/docs/rules/no-var

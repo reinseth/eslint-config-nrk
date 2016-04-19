@@ -45,9 +45,15 @@ module.exports = {
     'max-nested-callbacks': [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
     'max-params': [2, 3],             // http://eslint.org/docs/rules/max-params
     'max-statements': [0, 2],         // http://eslint.org/docs/rules/max-statements
+    'max-statements-per-line': [
+      2, {
+        max: 2
+      }
+    ],
     'new-cap': 2,                     // http://eslint.org/docs/rules/new-cap
     'new-parens': 2,                  // http://eslint.org/docs/rules/new-parens
     'newline-after-var': 0,           // http://eslint.org/docs/rules/newline-after-var
+    'newline-before-return': 0,       // http://eslint.org/docs/rules/newline-before-return
     'no-array-constructor': 2,        // http://eslint.org/docs/rules/no-array-constructor
     'no-bitwise': 2,                  // http://eslint.org/docs/rules/no-bitwise
     'no-continue': 2,                 // http://eslint.org/docs/rules/no-continue
