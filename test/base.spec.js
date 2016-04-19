@@ -1,5 +1,5 @@
 /* global describe, it */
-
+/* eslint-disable no-sync, global-require */
 import fs from 'fs';
 import path from 'path';
 import {assert} from 'chai';
@@ -19,7 +19,9 @@ describe('eslint-config-nrk', () => {
     files
       .forEach((file) => {
         const config = require(`../rules/${file}`);
-
+        if (typeof config.rules === 'undefined') {
+          return;
+        }
         if (file === 'react.js') {
           // Make sure all react rules starts with `react/`
           assert.equal(keysStartWith(Object.keys(config.rules), 'react/'), true);
