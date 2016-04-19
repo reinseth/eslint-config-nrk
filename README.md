@@ -40,7 +40,7 @@ you specify [`enviroment`](http://eslint.org/docs/user-guide/configuring#specify
 }
 ```
 
-For React-support, you also need to add the `react` extension:
+For React-support, you also need to add the `react` extension. The default config is for version 15 of React. For supporting older versions, please refer to the [`documentation`](https://github.com/yannickcr/eslint-plugin-react#configuration).
 
 ```json
 {
