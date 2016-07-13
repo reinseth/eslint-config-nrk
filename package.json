@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-nrk",
   "version": "3.0.0",
-  "description": "A shared ESLint configuration for and by front end developers at NRK.",
+  "description": "A shared ESLint configuration for and by JavaScript developers at NRK.",
   "main": "base.js",
   "scripts": {
     "autotest": "npm test -- --watch",

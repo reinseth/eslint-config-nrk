@@ -1,6 +1,6 @@
 # eslint-config-nrk [![Build Status](https://travis-ci.org/nrkno/eslint-config-nrk.svg?branch=master)](https://travis-ci.org/nrkno/eslint-config-nrk) [![Coverage Status](https://img.shields.io/coveralls/nrkno/eslint-config-nrk/master.svg?style=flat)](https://coveralls.io/github/nrkno/eslint-config-nrk?branch=master) [![npm version](https://img.shields.io/npm/v/eslint-config-nrk.svg?style=flat)](https://www.npmjs.com/package/eslint-config-nrk)
 
-A shared [ESLint](http://eslint.org/) configuration for and by front end developers at NRK.
+A shared [ESLint](http://eslint.org/) configuration for and by JavaScript developers at NRK.
 
 ## Installation
 
