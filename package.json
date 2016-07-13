@@ -18,11 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/nrkno/eslint-config-nrk.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "author": "NRK <opensource@nrk.no> (http://www.nrk.no/)",
+  "author": "NRK <opensource@nrk.no> (https://www.nrk.no/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nrkno/eslint-config-nrk/issues"
