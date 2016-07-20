@@ -32,5 +32,8 @@ module.exports = {
     'valid-jsdoc': 2,                 // http://eslint.org/docs/rules/valid-jsdoc
     'valid-typeof': 2,                // http://eslint.org/docs/rules/valid-typeof
     'no-unexpected-multiline': 2,     // http://eslint.org/docs/rules/no-unexpected-multiline
+    'no-restricted-globals': [        // http://eslint.org/docs/rules/no-restricted-globals
+      2, 'event'
+    ]
   }
 };
